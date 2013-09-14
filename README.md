@@ -33,7 +33,7 @@ In this example we compile Ruby 2.0 from source and then run it inside the Docke
 
 ```shell
 sudo docker build -t example/ruby-2.0 /vagrant
-sudo docker run -i -t example/ruby-2.0
+sudo docker run -i -t example/ruby-2.0 /bin/bash
 ruby -v
 ```
 
