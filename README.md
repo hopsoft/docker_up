@@ -33,7 +33,7 @@ In this example we create a Docker image named `example/hello`, then run the `he
 
 ```shell
 sudo docker build -t example/hello /vagrant
-sudo docker run example/hello hello
+sudo docker run example/hello
 ```
 
 __Thats it!__
